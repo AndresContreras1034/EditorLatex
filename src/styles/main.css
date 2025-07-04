@@ -1,1 +1,11 @@
 
+/* src/styles/main.css */
+@import "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For min-height on output */
+.min-h-\[2rem\] {
+  min-height: 2rem;
+}
