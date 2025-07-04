@@ -1,0 +1,22 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editor LaTeX Pro</title>
+  <link rel="stylesheet" href="/src/styles/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+</head>
+<body class="bg-white text-black dark:bg-gray-900 dark:text-white">
+  <div id="app" class="p-4 max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-4">Editor LaTeX Pro</h1>
+    <div id="editor-container"></div>
+    <button id="add-block" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+      ➕ Añadir bloque
+    </button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
